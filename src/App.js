@@ -171,7 +171,8 @@ const finalSearch = (e) =>{
             <td>{myNutrition.totalDaily.ZN.quantity.toFixed(2)}%</td>
           </tr>
         }
-        {  myNutrition.totalNutrients.PROCNT &&
+        {  myNutrition.totalNutrients.PROCNT
+       &&
           <tr>
             <td>Protein {myNutrition.totalNutrients.PROCNT.quantity.toFixed(1)}mg </td>
             <td>{myNutrition.totalDaily.PROCNT.quantity.toFixed(2)}%</td>
